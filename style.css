@@ -1,5 +1,7 @@
 body {
+  background-color: #f2f2f2;
   display: block;
+  box-sizing: border-box;
 }
 
 header {
@@ -16,6 +18,7 @@ nav {
   text-align: center;
   padding-top: 5em;
   padding-bottom: 1em;
+  margin-bottom: 0;
 }
 
 li {
@@ -26,4 +29,54 @@ li {
 a {
   text-decoration: none;
   color: white;
+}
+
+section {
+  background-color: white;
+  padding: 1em;
+  margin: 3em;
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  background-color: #b0c44c;
+  color: white;
+  padding: 0.2em;
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+
+section :last-child {
+  width: 100%;
+  padding: none;
+}
+
+.tea div {
+  text-align: center;
+}
+
+.leaf {
+  text-align: center;
+  padding: 0;
+  padding-bottom: 1em;
+}
+
+.title {
+  text-align: left;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+#pink {
+  background-color: #e26a6a;
+}
+#yellow {
+  background-color: #f4b350;
+}
+
+#blue {
+  background-color: #4ecdc4;
+}
+.title img {
+  padding: 0.5em;
 }
