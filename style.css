@@ -130,3 +130,43 @@ footer div p:hover {
 .footerimg div {
   padding: 0.5em;
 }
+
+@media screen and (min-width: 900px) {
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+
+  nav {
+    background-position: center;
+  }
+
+  #title {
+    display: none;
+  }
+
+  .teapic {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .leaf {
+    flex-basis: auto;
+    flex-grow: 1;
+  }
+  .footercolor {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerimg {
+    display: flex;
+    justify-content: space-around;
+  }
+}
