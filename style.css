@@ -1,0 +1,206 @@
+body {
+  background-color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: #879e0f;
+  color: white;
+  text-align: center;
+  margin: 0;
+  position: fixed;
+}
+nav {
+  background: url(/assets/bg.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
+.cart {
+  display: none;
+}
+li {
+  list-style-type: none;
+  padding: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background-color: white;
+  padding: 1em;
+  margin: 3em;
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  background-color: #b0c44c;
+  color: white;
+  padding: 0.2em;
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-family: "Amaranth", sans-serif;
+}
+
+.about :last-child {
+  width: 100%;
+  padding: none;
+}
+
+.tea div {
+  text-align: center;
+  color: #6b6b6b;
+  font-weight: normal;
+}
+
+.tea h2 {
+  color: #6b6b6b;
+  margin-top: 0;
+}
+
+.leaf {
+  text-align: center;
+  padding: 0;
+  padding-bottom: 1em;
+  color: #6b6b6b;
+}
+.leaf h3 {
+  font-family: "Open Sans", sans-serif;
+}
+.title {
+  text-align: left;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+#pink {
+  background-color: #e26a6a;
+}
+#yellow {
+  background-color: #f4b350;
+}
+
+#blue {
+  background-color: #4ecdc4;
+}
+.title img {
+  padding: 0.5em;
+}
+
+footer {
+  text-align: center;
+  color: #cfd89e;
+  font-family: "Open Sans", sans-serif;
+  font-size: smaller;
+}
+
+footer h4 {
+  color: white;
+}
+
+.footercolor i {
+  font-size: 2em;
+}
+
+.footercolor {
+  background-color: #879e0f;
+  padding: 2em;
+}
+
+footer div p:hover {
+  text-decoration: underline;
+}
+
+.footerimg {
+  background: url(/assets/bg.jpg) no-repeat bottom #96b011;
+  padding: 1em;
+}
+
+.footerimg div {
+  padding: 0.5em;
+}
+
+@media screen and (min-width: 900px) {
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+
+  nav {
+    background-position: center;
+  }
+
+  .cart i {
+    font-size: 2.5em;
+  }
+
+  .cart div :last-child {
+    font-size: 0.8em;
+  }
+  .cart div {
+    text-align: right;
+    color: white;
+  }
+
+  .cart div p {
+    margin: 0;
+  }
+  .cart {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #cfd89e;
+  }
+
+  .headertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5em 0 5em;
+  }
+  #title {
+    position: absolute;
+    margin-top: 2rem;
+    opacity: 80%;
+    padding-right: 2em;
+  }
+
+  .teapic {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .leaf {
+    flex-basis: auto;
+    flex-grow: 1;
+  }
+  .footercolor {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerimg {
+    display: flex;
+    justify-content: space-around;
+  }
+}
