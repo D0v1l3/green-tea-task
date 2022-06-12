@@ -1,7 +1,6 @@
 body {
   background-color: #f2f2f2;
-  display: block;
-  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
@@ -31,6 +30,10 @@ a {
   color: white;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 section {
   background-color: white;
   padding: 1em;
@@ -46,21 +49,35 @@ section {
   margin-bottom: 1em;
 }
 
-section :last-child {
+h2 {
+  font-family: "Amaranth", sans-serif;
+}
+
+.about :last-child {
   width: 100%;
   padding: none;
 }
 
 .tea div {
   text-align: center;
+  color: #6b6b6b;
+  font-weight: normal;
+}
+
+.tea h2 {
+  color: #6b6b6b;
+  margin-top: 0;
 }
 
 .leaf {
   text-align: center;
   padding: 0;
   padding-bottom: 1em;
+  color: #6b6b6b;
 }
-
+.leaf h3 {
+  font-family: "Open Sans", sans-serif;
+}
 .title {
   text-align: left;
   color: white;
@@ -78,5 +95,38 @@ section :last-child {
   background-color: #4ecdc4;
 }
 .title img {
+  padding: 0.5em;
+}
+
+footer {
+  text-align: center;
+  color: #cfd89e;
+  font-family: "Open Sans", sans-serif;
+  font-size: smaller;
+}
+
+footer h4 {
+  color: white;
+}
+
+.footercolor i {
+  font-size: 2em;
+}
+
+.footercolor {
+  background-color: #879e0f;
+  padding: 2em;
+}
+
+footer div p:hover {
+  text-decoration: underline;
+}
+
+.footerimg {
+  background: url(/assets/bg.jpg) no-repeat bottom #96b011;
+  padding: 1em;
+}
+
+.footerimg div {
   padding: 0.5em;
 }
